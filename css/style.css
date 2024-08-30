@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    color: #1FB2A7;
+    text-shadow: 2px 2px #333;
+}
+
+button {
+    background-color: #1FB2A7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin: 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #333;
+    transform: scale(0.98);
+}
+.opcion.seleccionada {
+    background-color: #e0e0e0;
+    border-color: #999;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+.opcion{
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 50px;
+}
+.opcion:hover{
+    background-color: #1FB2A7;
+  }
+
+#resultado {
+    margin-top: 30px;
+    font-size: 18px;
+    transition: opacity 0.5s ease;
+    border: 2px solid #1FB2A7;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #A4A5A8;
+}
+.eleccion-maquina {
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 5px;
+}
+.mensaje-resultado {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 15px;
+}
